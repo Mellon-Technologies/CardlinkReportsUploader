@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CardlinkReportsFtpUpload.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FtpPathToUpload" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/In/TMS_Export_Files/</Value>
+    </Setting>
+    <Setting Name="FtpAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.111.11</Value>
+    </Setting>
+    <Setting Name="FtpUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mellon</Value>
+    </Setting>
+    <Setting Name="FtpPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">#M3ll0n#</Value>
+    </Setting>
+    <Setting Name="PathToSaveCsv" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\IngProvLogs\</Value>
+    </Setting>
+    <Setting Name="EmailTo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v.charalambidis@mellongroup.com </Value>
+    </Setting>
+    <Setting Name="EmailSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CardLink Ftp Upload reports</Value>
+    </Setting>
+    <Setting Name="EmailBody" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SmtpHostIp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smtp.office365.com</Value>
+    </Setting>
+    <Setting Name="EmailFrom" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">do-not-reply@mellongroup.com</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="NetworkCredentialUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">do-not-reply@mellongroup.com</Value>
+    </Setting>
+    <Setting Name="NetworkCredentialPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">P@55w0rd!!</Value>
+    </Setting>
+    <Setting Name="SentryDSN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://9d26bd6bcf484bc4895ea2615fcc2233@o347434.ingest.sentry.io/5980834</Value>
+    </Setting>
+    <Setting Name="SentryDebug" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SentryTracesSampleRate" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AutoReportGenerator" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\a.gkliatis\source\repos\CardlinkReportsUpload\AutoReport\AutoCardLinkReportApplication\bin\Release\AutoCardlinkReportApplication</Value>
+    </Setting>
+    <Setting Name="TerminalLogReport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\a.gkliatis\source\repos\CardlinkReportsUpload\LogReport\CardLinkLogReport\bin\Release\CardLinkLogReport</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StartHourReport" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PathToSaveStatsLoggingCsv" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
